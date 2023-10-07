@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #475569;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dbeafe;
+  border-radius: 10px;
+}
+
+.App {
+  background-color: #dbeafe;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App-Heading {
+  background-color: #93c5fd;
+  background-color: rgb(30, 41, 59);
+  width: 100%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  font-weight: 800;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.App-Heading .HeadingText {
+  color: #ED0800;
+  transform: rotate(-90deg);
+  font-size: 25px;
+}
+
+.navMenuButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-size: 20px;
+  font-weight: 800;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.App-Nav {
+  position: sticky;
+  top: 0;
+  border: none;
+  height: 70px;
+  color: #1E293B;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #1E293B;
+}
+
+.stickeyNav .App-Nav-Link {
+  color: white;
+}
+
+.stickeyNav {
+  background-color: rgb(30, 41, 59);
+}
+
+.App-Nav-Link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+
+}
+
+.App-Nav-Link:hover {
+  cursor: pointer;
+  color: #f97316;
+}
+
+.active {
+  color: #ea580c;
+  font-weight: 800;
+
+}
+
+.Page404 {
+  background-image: url(./BgPage404.png);
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  min-height: 82vh;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  display: flex;
+}
+
+.goHomeBtn {
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #334155;
+  color: white;
+}
+
+.goHomeBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+  background-color: #4b5b70;
+}
+section{
+  /* border: 2px solid red; */
+  height: 500vh;
+}
+.App-Footer {
+  background-color: #e2e8f0;
+  height: 300px;
+}
+
+@media screen and (max-width: 850px) {
+  .App-Heading {
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+  }
+
+  .navMenuButton {
+
+    display: flex;
+  }
+
+  .App-Nav {
+    display: none;
+  }
+
+  .activeNav .App-Nav-Link {
+    color: white;
+  }
+
+  .activeNav {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    flex-direction: column;
+    height: 91.5%;
+    background-color: rgb(30, 41, 59);
+  }
+}
