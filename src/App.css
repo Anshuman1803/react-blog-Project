@@ -79,6 +79,7 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 1px solid #1E293B;
+  transition:  all .3s ease-in;
 }
 
 
@@ -90,11 +91,13 @@ h1 {
 
 .App-Nav-Link {
   text-decoration: none;
+  text-align: center;
   font-weight: 500;
   font-size: 18px;
   color: #000000;
-
+  position: relative;
 }
+
 
 .App-Nav-Link:hover {
   cursor: pointer;
@@ -110,7 +113,6 @@ h1 {
 .Page404 {
   background-image: url(./BgPage404.png);
   background-repeat: no-repeat;
-  border: 2px solid red;
   min-height: 82vh;
   background-position: center;
   background-size: contain;
@@ -179,9 +181,16 @@ section {
     position: fixed;
     right: 0;
     top: 60px;
-    width: 100%;
+    width: 50%;
     flex-direction: column;
+    justify-content: center;
+    gap: 60px;
     height: 100%;
     background-color: #94A3B8;
+  }
+}
+@media screen and (max-width: 500px){
+  .activeNav {
+    width: 100%;
   }
 }
