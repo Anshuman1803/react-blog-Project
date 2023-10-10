@@ -8,7 +8,7 @@ function BlogBollywood() {
   let blogNumbering = 1;
 
   let getData = (data, index) => {
-    if (index < 6) {
+    if (index < 8) {
       return <React.Fragment key={data.BlogId}>
 
         <div className="BlogBox">
@@ -37,7 +37,7 @@ function BlogBollywood() {
   }
 
   let getTopPost = (data, index) => {
-    if (index === 6) {
+    if (index === 8) {
       return <React.Fragment key={data.BlogId}>
 
         <div className="Top_PostBox FirstTopPost_box">
@@ -52,7 +52,7 @@ function BlogBollywood() {
 
       </React.Fragment>
     }
-    if (index > 6) {
+    if (index > 8) {
       return <React.Fragment key={data.BlogId}>
 
         <div className="Top_PostBox">
