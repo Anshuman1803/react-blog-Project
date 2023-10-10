@@ -4,6 +4,7 @@ import { useContext } from 'react'
 
 function BlogBollywood() {
   let BollywoodData = useContext(BlogData);
+  let blogNumbering = 1;
 
   let getData = (data, index) => {
     if (index < 6) {
@@ -34,7 +35,21 @@ function BlogBollywood() {
   }
 
   let getTopPost = (data, index) => {
-    if (index >= 6) {
+    if (index === 6) {
+      return <React.Fragment key={data.BlogId}>
+
+        <div className="Top_PostBox FirstTopPost_box">
+          <div className="FirstTopPost-PosterBox">
+            <img src={data.blogImg} alt="TopPostPoster" className='FirstTopPostPoster' />
+          </div>
+          <div className=" FirstTopPost-TitleBox">
+            <p className="topPostTitle FirstTopPostTitle"> {data.blogTitle.slice(0, 65)} <span className='postNumbering'>{blogNumbering}</span></p>
+          </div>
+        </div>
+
+      </React.Fragment>
+    }
+    if (index > 6) {
       return <React.Fragment key={data.BlogId}>
 
         <div className="Top_PostBox">
@@ -42,7 +57,7 @@ function BlogBollywood() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-            <p className="topPostTitle"> {data.blogTitle.slice(0, 65)}</p>
+            <p className="topPostTitle"> {data.blogTitle.slice(0, 65)} <span className='postNumbering'>{++blogNumbering}</span></p>
           </div>
         </div>
 
