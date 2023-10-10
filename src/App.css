@@ -143,10 +143,7 @@ h1 {
   background-color: #4b5b70;
 }
 
-section {
-  /* height: 500vh; */
-  z-index: -1;
-}
+
 
 .Hero-Section {
   width: 100%;
@@ -185,7 +182,7 @@ section {
   grid-row: 2/3;
 }
 
-.bollyWoodSection {
+.blogSection {
   padding: 1em 2em;
   display: flex;
   align-items: flex-start;
@@ -375,7 +372,7 @@ section {
 
 @media screen and (max-width: 951px) {
 
-  .bollyWoodSection {
+  .blogSection {
     flex-direction: column;
   }
 
@@ -500,7 +497,7 @@ section {
     grid-template-columns: 100%;
   }
 
-  .bollyWoodSection {
+  .blogSection {
     flex-direction: column;
     padding: 2em 0.5em;
   }
@@ -531,6 +528,13 @@ section {
   }
 
   .Top_PostBox {
+    width: 100%;
+  }
+  .topPostTitle {
+  font-size: 16px;
+  }
+
+  .FirstTopPost-PosterBox {
     width: 100%;
   }
 

@@ -67,7 +67,7 @@ function BlogBollywood() {
 
 
   return (
-    <section className='blogSection bollyWoodSection'>
+    <section className='blogSection'>
       <div className="blogSection-Left">
         <h2 className='blogHeading'>Bollywood</h2>
         {
