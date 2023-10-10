@@ -71,7 +71,7 @@ function BlogSports() {
   return (
     <section className='blogSection'>
       <div className="blogSection-Left">
-        <h2 className='blogHeading'>Hollywood</h2>
+        <h2 className='blogHeading'>Sports</h2>
         {
           SportsData.sportBlog.map(getData)
         }
