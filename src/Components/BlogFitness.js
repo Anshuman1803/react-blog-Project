@@ -75,14 +75,14 @@ function BlogFitness() {
       <div className="blogSection-Left">
         <h2 className='blogHeading'>Fitness</h2>
         {
-          FitnessData.fitenessBlog.map(getData)
+          FitnessData.fiteness.map(getData)
         }
 
       </div>
       <div className="blogSection-Right">
         <h3 className='blogHeading'>Top Post</h3>
         {
-          FitnessData.fitenessBlog.map(getTopPost)
+          FitnessData.fiteness.map(getTopPost)
         }
         <div className="advertisementBox"><img src="https://cdn.create.vista.com/downloads/41a1401b-bffd-4b19-ad29-1c144693dcf2_1024.jpeg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
       </div>

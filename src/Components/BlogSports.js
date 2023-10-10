@@ -73,14 +73,14 @@ function BlogSports() {
       <div className="blogSection-Left">
         <h2 className='blogHeading'>Sports</h2>
         {
-          SportsData.sportBlog.map(getData)
+          SportsData.sports.map(getData)
         }
 
       </div>
       <div className="blogSection-Right">
         <h3 className='blogHeading'>Top Post</h3>
         {
-          SportsData.sportBlog.map(getTopPost)
+          SportsData.sports.map(getTopPost)
         }
         <div className="advertisementBox"><img src="https://www.exchange4media.com/news-photo/1520242401_g7vXNC_MSDPressReleaseImage_03_(1).jpg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
       </div>

@@ -75,14 +75,14 @@ function BlogTech() {
       <div className="blogSection-Left">
         <h2 className='blogHeading'>Technology</h2>
         {
-          TechData.technologyBlog.map(getData)
+          TechData.technology.map(getData)
         }
 
       </div>
       <div className="blogSection-Right">
         <h3 className='blogHeading'>Top Post</h3>
         {
-          TechData.technologyBlog.map(getTopPost)
+          TechData.technology.map(getTopPost)
         }
         <div className="advertisementBox"><img src="https://marketplace.canva.com/EAFMo02Phxk/1/0/1131w/canva-blue-gradient-technology-poster-oUHWN0j47BU.jpg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
       </div>

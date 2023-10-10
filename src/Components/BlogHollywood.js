@@ -74,14 +74,14 @@ function BlogHollywood() {
       <div className="blogSection-Left">
         <h2 className='blogHeading'>Hollywood</h2>
         {
-          HollyWoodData.hollyWoodBlog.map(getData)
+          HollyWoodData.hollyWood.map(getData)
         }
 
       </div>
       <div className="blogSection-Right">
         <h3 className='blogHeading'>Top Post</h3>
         {
-          HollyWoodData.hollyWoodBlog.map(getTopPost)
+          HollyWoodData.hollyWood.map(getTopPost)
         }
         <div className="advertisementBox"><img src="https://www.adgully.com/img/800/201811/wish-upon.jpg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
       </div>
