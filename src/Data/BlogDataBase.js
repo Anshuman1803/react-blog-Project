@@ -90,6 +90,14 @@ function BlogDataBase(props) {
 
         },
 
+        {
+            BlogId: 11,
+            blogTitle: "Leo: Thalapathy Vijay, Lokesh Kanagaraj film's Telugu theatrical deal to be revised due to THESE films?",
+            blogDesc: "One of the most anticipated movies to come during Dussehra is Leo. Thalapathy Vijay and Lokesh Kanagaraj have made one of the most hyped films of 2023. The trailer has got a great response so far. We can see Thalapathy Vijay in the main role of Leo Das. The action packed trailer also has Sanjay Dutt, Trisha and Arjun Sarja. Lokesh Kanagaraj has shot the film in the snow clad valleys of Kashmir. The CGI shots of Thalapathy Vijay fighting with a hyena have been appreciated as well. But it looks like there is a issue with theatrical rights in the Telugu belt.",
+            blogImg: 'https://static.toiimg.com/thumb/msid-96935817,width-1280,resizemode-4/96935817.jpg'
+
+        },
+
       ]
     )
 

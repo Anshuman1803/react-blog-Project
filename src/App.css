@@ -189,39 +189,64 @@ section {
 
 /* BollyWood Styling */
 .bollyWoodSection {
-  border: 2px solid red;
   padding: 1em 2em;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100%;
-
-  gap: 10px;
-
-
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .blogSection-Left {
-  /* border: 2px solid blue; */
-  grid-column: 1/2;
-  grid-row: 1/2;
   display: flex;
+  width: 70%;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 2em 0em;
+  height: 100%;
   gap: 20px;
 
 }
 
+.blogSection-Right {
+  padding: 2em 0em;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+
+
+.blogHeading {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.blogHeading::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 80px;
+  border: 2px solid #ED0800;
+}
+
 .hrLine {
   color: grey;
+  width: 100%;
 
 }
 
 .BlogBox {
   border-radius: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  width: 800px;
-  height: 300px;
+  width: 90%;
+  height: 275px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,6 +266,7 @@ section {
   border-bottom-left-radius: 10px;
   height: 100%;
   width: 100%;
+  object-fit: fill;
 }
 
 .BlogDescriptionBox {
@@ -260,16 +286,93 @@ section {
 
 
 
-.blogSection-Right {
-  border: 2px solid blue;
-  grid-column: 2/3;
-  grid-row: 1/2;
+.Top_PostBox {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
 
+.Top_PostBox:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.TopPost-PosterBox {
+  width: 45%;
+  height: 100%;
+
+}
+
+.TopPostPoster {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.TopPost-TitleBox {
+  width: 55%;
+  height: 100%;
+  padding: 0em 0em 0em 0.6em;
+}
+
+.topPostTitle {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.advertisementBox {
+  border-radius: 15px;
+  width: 100%;
+  height: 400px;
+}
+
+.AdvertiseMentPoster {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .App-Footer {
   background-color: #dbeafe;
   height: 300px;
+}
+
+@media screen and (max-width: 951px) {
+
+  .bollyWoodSection {
+    flex-direction: column;
+  }
+
+  .blogSection-Left {
+    width: 100%;
+    align-items: center
+  }
+
+  .blogSection-Right {
+    width: 100%;
+  }
+
+
+  .blogHeading {
+    align-self: flex-start;
+  }
+
+  .BlogBox {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .advertisementBox {
+    align-self: center;
+    width: 70%;
+
+  }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -329,6 +432,10 @@ section {
     grid-column: 1/2;
     grid-row: 3/4;
   }
+
+
+
+
 }
 
 @media screen and (max-width: 500px) {
@@ -339,4 +446,44 @@ section {
   .Hero-Section {
     grid-template-columns: 100%;
   }
+
+  .bollyWoodSection {
+    flex-direction: column;
+    padding: 2em 0.5em;
+  }
+
+  .BlogBox {
+    height: 275px;
+  }
+
+  .blogSection-Right {
+    padding: 1em 0em;
+  }
+
+  .BlogDescriptionBox {
+    height: 100%;
+    width: 60%;
+    padding: 0.2em;
+  }
+
+  .blogTitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .blogDesc {
+    font-size: 16px;
+  }
+
+  .Top_PostBox {
+    height: 200px;
+  }
+
+  .advertisementBox {
+    align-self: center;
+    width: 100%;
+
+  }
+
+
 }

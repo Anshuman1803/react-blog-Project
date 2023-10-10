@@ -8,6 +8,7 @@ import BlogBollywood from '../Components/BlogBollywood';
 import BlogFitness from '../Components/BlogFitness';
 import BlogSports from '../Components/BlogSports';
 import BlogTech from '../Components/BlogTech'
+import ReadBlogCompo from '../Components/ReadBlogCompo';
 function BlogRouteCompo() {
     return (
         <Routes>
@@ -17,7 +18,7 @@ function BlogRouteCompo() {
             <Route path='/fitness' element={<BlogFitness />} />
             <Route path='/technology' element={<BlogTech />} />
             <Route path='/sports' element={<BlogSports />} />
-
+            <Route path='/Blog/:ID' element={<ReadBlogCompo />}/>
             <Route path='*' element={<Page404 />} />
         </Routes>
     )
