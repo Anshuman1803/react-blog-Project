@@ -42,7 +42,7 @@ function BlogBollywood() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-            <p className="topPostTitle"> {data.blogTitle.slice(0, 50)} ...</p>
+            <p className="topPostTitle"> {data.blogTitle.slice(0, 65)}</p>
           </div>
         </div>
 

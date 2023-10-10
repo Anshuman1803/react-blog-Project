@@ -355,6 +355,7 @@ section {
 
   .blogSection-Right {
     width: 100%;
+    align-items: center;
   }
 
 
@@ -363,8 +364,14 @@ section {
   }
 
   .BlogBox {
-    width: 100%;
+    width: 95%;
+    height: 275px;
     overflow: hidden;
+  }
+
+  .Top_PostBox {
+    width: 80%;
+    height: 150px;
   }
 
   .advertisementBox {
@@ -452,10 +459,6 @@ section {
     padding: 2em 0.5em;
   }
 
-  .BlogBox {
-    height: 275px;
-  }
-
   .blogSection-Right {
     padding: 1em 0em;
   }
@@ -466,17 +469,23 @@ section {
     padding: 0.2em;
   }
 
+  .BlogBox {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+  }
+
   .blogTitle {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
 
   .blogDesc {
-    font-size: 16px;
+    display: none;
   }
 
   .Top_PostBox {
-    height: 200px;
+    width: 100%;
   }
 
   .advertisementBox {
