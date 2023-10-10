@@ -272,8 +272,13 @@ h1 {
 .blogTitle {
   font-weight: 800;
   margin-bottom: 20px;
+  text-decoration: none;
+  color: #000000;
 }
-
+.blogTitle:hover, .topPostTitle:hover{
+  cursor: pointer;
+  color: #f97316;
+}
 .blogDesc {
   font-size: 16px;
 }
@@ -319,9 +324,12 @@ h1 {
   width: 100%;
   font-size: 18px;
   font-weight: 800;
+  text-decoration: none;
+  color: #000000;
 }
 .postNumbering{
   position: absolute;
+  font-weight: 800;
   bottom:  10px;
   right: 10px;
   color: rgb(169, 169, 169);

@@ -18,7 +18,7 @@ function BlogRouteCompo() {
             <Route path='/fitness' element={<BlogFitness />} />
             <Route path='/technology' element={<BlogTech />} />
             <Route path='/sports' element={<BlogSports />} />
-            <Route path='/Blog/:ID' element={<ReadBlogCompo />}/>
+            <Route path='/:Blog/:ID' element={<ReadBlogCompo />}/>
             <Route path='*' element={<Page404 />} />
         </Routes>
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { BlogData } from '../Data/BlogDataBase'
 import { useContext } from 'react'
+import { Link } from 'react-router-dom';
 
 function BlogHollywood() {
   let HollyWoodData = useContext(BlogData);
@@ -19,9 +20,9 @@ function BlogHollywood() {
             />
           </div>
           <div className="BlogDescriptionBox">
-            <h2 className="blogTitle">
+          <Link to={`/${data.blogCategory}/${data.BlogId}`} className="blogTitle" >   <h2 className="blogTitle">
               {data.blogTitle.slice(0, 65)} ...
-            </h2>
+            </h2></Link>
             <p className="blogDesc">
               {data.blogDesc.slice(0, 180)} ...
             </p>
@@ -43,7 +44,8 @@ function BlogHollywood() {
             <img src={data.blogImg} alt="TopPostPoster" className='FirstTopPostPoster' />
           </div>
           <div className=" FirstTopPost-TitleBox">
-            <p className="topPostTitle FirstTopPostTitle"> {data.blogTitle.slice(0, 65)} <span className='postNumbering'>{blogNumbering}</span></p>
+          <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle FirstTopPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+          <span className='postNumbering'>{blogNumbering}</span>
           </div>
         </div>
 
@@ -57,7 +59,8 @@ function BlogHollywood() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-            <p className="topPostTitle"> {data.blogTitle.slice(0, 65)} <span className='postNumbering'>{++blogNumbering}</span></p>
+          <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+            <span className='postNumbering'>{++blogNumbering}</span>
           </div>
         </div>
 
