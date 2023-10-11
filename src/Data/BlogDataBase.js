@@ -460,7 +460,7 @@ function BlogDataBase(props) {
         },
     ]);
 
-    const [technology] = useState([
+    const [technology ] = useState([ 
 
         {
             blogCategory: 'technology',
@@ -474,15 +474,17 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 2,
             blogTitle: " AI App Puts New Life in Old Photos",
-            blogImg: "https://www.technewsworld.com/wp-content/uploads/sites/3/2021/05/xl-2021-my-heritage-1.jpg",
+            
             blogDesc: "Nostalgia website MyHeritage has launched a new service that allows you to create lifelike animations of faces in still photos. The AI-powered service called Deep Nostalgia, launched last week, is free to try and is remarkably accurate in depicting how a person would look if captured on video. Their eyes blink, their head moves and their mouth forms a smile.",
+            
+            blogImg: "https://www.technewsworld.com/wp-content/uploads/sites/3/2021/05/xl-2021-my-heritage-1.jpg",
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 3,
             
             blogTitle: "Stuart Russell wrote the textbook on AI safety. He explains how to keep it from spiraling out of control.",
@@ -493,7 +495,7 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 4,
             
             blogTitle: "AMD acquires open-source AI software pioneer Nod.ai to fortify AI capabilities.",
@@ -504,7 +506,7 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 5,
             
             blogTitle: "Researchers turn to Harry Potter to make AI forget about copyrighted material.",
@@ -515,7 +517,7 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 6,
             
             blogTitle: "DeepMind’s ‘remarkable’ new AI controls robots of all kinds, VentureBeat presents: AI Unleashed.",
@@ -526,7 +528,7 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 7,
             
             blogTitle: "OpenAI CEO Sam Altman foresees ‘breathtaking’ scientific discoveries, muses on geoengineering",
@@ -537,7 +539,7 @@ function BlogDataBase(props) {
         },
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 8,
             
             blogTitle: "IBM propels PyTorch beyond model training into AI inference",
@@ -549,7 +551,7 @@ function BlogDataBase(props) {
 
 
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 9,
             
             blogTitle: "Docker dives into AI to help developers build GenAI apps",
@@ -561,7 +563,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 10,
             
             blogTitle: "Reka launches Yasa-1, a multimodal AI assistant to take on ChatGPT",
@@ -574,7 +576,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 11,
             
             blogTitle: "Canva adds generative video with Runway and new AI-powered Magic Studio",
@@ -587,7 +589,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 12,
             
             blogTitle: "Dell customizes GenAI and focuses on data lakehouse",
@@ -600,7 +602,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 13,
             
             blogTitle: "Meta’s AI stickers are here and already causing controversy",
@@ -613,7 +615,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 14,
             
             blogTitle: "Zoom Docs arrives to take on Google Docs, Notion, offers a new hub for teamwork",
@@ -626,7 +628,7 @@ function BlogDataBase(props) {
 
         
         {
-            blogCategory: "Technology",
+            blogCategory: "technology",
             BlogId: 15,
             
             blogTitle: "How AI-powered patch management protects remote and hybrid workers",
@@ -810,7 +812,7 @@ function BlogDataBase(props) {
     ]);
 
     return (
-        <BlogData.Provider value={{ bollyWood, hollyWood, fiteness, technology, sports }}>
+        <BlogData.Provider value={{ bollyWood, hollyWood, fiteness, technology , sports }}>
             {props.children}
         </BlogData.Provider>
     )
