@@ -1,17 +1,18 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, useNavigate } from 'react-router-dom'
 import { BlogData } from '../Data/BlogDataBase'
 import { useContext } from 'react'
 
 function ReadBlogCompo() {
+  let navigateBack = useNavigate();
   let paramData = useParams();
   let allBlogs = useContext(BlogData);
 
   let getClickedData = (data) => {
     if (data.BlogId === Number(paramData.ID)) {
       return <article className="ReadBlog" key={data.BlogId}>
-         <p className="clapCount fixedIcon"><i className="fa-solid fa-hands-clapping"></i> <span>{data.blogClap}</span></p>
-      <p className="Share fixedIcon"><i className="fa-solid fa-share-nodes"></i> <span>Share This Blog</span></p>
+        <p className="clapCount fixedIcon"><i className="fa-solid fa-hands-clapping"></i> <span>{data.blogClap}</span></p>
+        <p className="Share fixedIcon"><i className="fa-solid fa-share-nodes"></i> <span>Share This Blog</span></p>
         <h2 className="ReadBlog-Title">{data.blogTitle}</h2>
         <div className="PublisehrBox">
           <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="ProfilePhoto" className='profileImg' />
@@ -67,6 +68,8 @@ function ReadBlogCompo() {
       {
         allBlogs[paramData.Blog].map(getClickedData)
       }
+      <button className="navigateBackBtn" onClick={()=> navigateBack(-1)}>Back</button>
+
       <div className="moreBlogContainer">
         <h3 className='moreBlogHeading'>More From The Siren</h3>
 
