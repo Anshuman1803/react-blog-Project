@@ -6,7 +6,6 @@ import { useContext } from 'react'
 function BlogFitness() {
   let FitnessData = useContext(BlogData);
   let blogNumbering = 1;
-
   let getData = (data, index) => {
     if (index < 8) {
       return <React.Fragment key={data.BlogId}>
@@ -27,6 +26,9 @@ function BlogFitness() {
             <p className="blogDesc">
               {data.blogDesc.slice(0, 180)} ...
             </p>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
           </div>
         </div>
         <hr className='hrLine' />
@@ -46,6 +48,9 @@ function BlogFitness() {
           </div>
           <div className=" FirstTopPost-TitleBox">
             <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle FirstTopPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
             <span className='postNumbering'>{blogNumbering}</span>
           </div>
         </div>
@@ -60,7 +65,10 @@ function BlogFitness() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-            <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+            <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 45)}</Link>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
             <span className='postNumbering'>{++blogNumbering}</span>
           </div>
         </div>

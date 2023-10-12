@@ -20,10 +20,13 @@ function BlogSports() {
           </div>
           <div className="BlogDescriptionBox">
           <Link to={`/${data.blogCategory}/${data.BlogId}`} className="blogTitle" >   <h2 className="blogTitle">
-              {data.blogTitle.slice(0, 65)} ...
+              {data.blogTitle.slice(0, 40)} ...
             </h2></Link>
             <p className="blogDesc">
               {data.blogDesc.slice(0, 180)} ...
+            </p>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
             </p>
           </div>
         </div>
@@ -44,6 +47,9 @@ function BlogSports() {
           </div>
           <div className=" FirstTopPost-TitleBox">
           <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle FirstTopPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+          <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
           <span className='postNumbering'>{blogNumbering}</span>
           </div>
         </div>
@@ -58,7 +64,10 @@ function BlogSports() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-          <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+          <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 33)}</Link>
+          <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
             <span className='postNumbering'>{++blogNumbering}</span>
           </div>
         </div>

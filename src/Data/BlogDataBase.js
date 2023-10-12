@@ -9,6 +9,8 @@ function BlogDataBase(props) {
         [
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "10k",
                 BlogId: 1,
                 blogTitle: "MS Dhoni The Untold Story: When Sushant Singh Rajput recalled his memorable moment with Dhoni and drew similarities between them",
                 blogDesc: "Sushant Singh Rajput was the most sought-after actor in the industry. The late actor kept the audience entertained having featured in several movies within the time span he served. His movie M.S. Dhoni: The Untold Story. was critically acclaimed. He was appreciated for portraying the real-life character of Mahendra Singh Dhoni without errors. To get into the skin of the character Rajput stayed with the Indian cricketer and observed him. Throwback to the time of MS Dhoni movie release and SSR spoke his heart out.Mahendra Singh Dhoni, celebrating his 42nd birthday today, was equally involved in making his biopic. He patiently answered all of Sushant Singh Rajput's questions, doubts. The actor knew Dhoni before the film but got to observe him closely and portray him on big screens. While shooting for the film both spent the majority of their time together and had moments.",
@@ -18,6 +20,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "93k",
                 BlogId: 2,
                 blogTitle: "Akshay Kumar addresses the noise around his return as one of the top faces of a tobacco brand; slams fake news",
                 blogDesc: "Fans were surprised to see Akshay Kumar in a new TVC for a tobacco brand that also featured Shah Rukh Khan and Ajay Devgn. The three superstars got immense flak when the first ad featuring the trio came out. Akshay Kumar got slammed left, right and centre as he is known to be a fitness icon. In his interviews, he is always talking about a healthy lifestyle. People felt that a public figure with his messaging should not have done that commercial. He later apologized for the same, and said he would not benefit from the sum he earned from the commercial. He gave it for charity. Yesterday, the new TVC of Vimal Zubaan Kesari was out. Akshay Kumar was present there as well. This left netizens wondering if he had gone back on his word.",
@@ -27,6 +31,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "4k",
                 BlogId: 3,
                 blogTitle: "'Nushrat Bharucha herself is a cannon', Rakhi Sawant reacted when the actress got stuck in Israel",
                 blogDesc: "When paparazzi asked Rakhi Sawant about Nusrat Bharucha being stuck in Israel, she was surprised. Rakhi Sawant says, 'What is the use of Nusrat Bharucha in the war between Israel and Palestine.' On this the paparazzi says that she had gone there for some work. Then Rakhi Sawant says, 'I think Nusrat Bharucha herself is a cannon and which country did she go from?' On this the paparazzi says that she had gone to Israel from India. Then Rakhi Sawant says, 'Nushrat Bharucha is a cannon, so whether she had gone from Israel or Palestine.' Paparazzi say that she went to Israel from India to shoot. Rakhi Sawant says, 'Went to shoot in Israel. Thank God she came back safely. Don't take tension, only Israel will win.",
@@ -37,6 +43,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "3k",
                 BlogId: 4,
                 blogTitle: "Rekha was adamant on divorce from husband Mukesh Agarwal after a few months of marriage, secretary Farzana became the reason?",
                 blogDesc: " Veteran Bollywood actress Rekha is celebrating her 69th birthday today. Rekha, who has worked in more than 180 films, was born on 19 October 1954. Rekha entered the world of acting at the age of just 4 years. The actress entered Bollywood in the year 1979 with the film 'Sawan Bhado', which proved to be a superhit at the box office. After this Rekha appeared in many superhit films. However, this Bollywood beauty remained in the news more for her personal life than her films. Rekha's name was associated with Jeetendra, Kiran Kumar, Vinod Mehra, Sanjay Dutt and Akshay Kumar in her career. Apart from this, Rekha's affair with married Amitabh Bachchan also made a lot of headlines. However, when Rekha married businessman Mukesh Aggarwal on March 4, 1990, everyone was surprised.",
@@ -47,6 +55,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "3k",
                 BlogId: 5,
                 blogTitle: "Ganapath trailer: Tiger Shroff, Kriti Sanon get thumbs up from fans; amazing VFX and action sequences impress",
                 blogDesc: "Tiger Shroff and Kriti Sanon starrer Ganapath: A Hero is Born’s trailer released today. The film has been the most awaited one and finally fans got to see a glimpse of it today. The trailer is always an important part of the film as it decides how the film will be. People often watch the trailer and then only decide to go for the movie. If the trailer is impressive, the movies definitely does the best at the Box Office. And, Ganapath’s trailer has done the job.Yes, the trailer has been quite impressive. The trailer shows a glimpse of the dystopian society and how Tiger’s character will protect the people from evil things. Tiger is seen involved in some amazing action scenes and later we see Kriti Sanon in a never seen before avatar",
@@ -57,6 +67,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "2k",
                 BlogId: 6,
                 blogTitle: "Jawan star Nayanthara wishes her twins on their first birthday with a long emotional note",
                 blogDesc: "Jawan star Nayanthara is right now in the happiest phase of her life, personally and professionally. The actress who is bashing super divas in her Bollywood debut film Jawan is in celebratory mode as her lifelines, her babies, and her twins have turned one. Nayanthara, who is a happy mother before anything else, took to her Instagram account and shared a long emotional note for her twins Ujir and Ulag on their duet birthdays. Nayanthara opened her heart out and revealed everything that she feels about her kids.",
@@ -66,6 +78,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "15k",
                 BlogId: 7,
                 blogTitle: "Naga Chaitanya’s latest post sparks patch up rumours with ex wife Samantha Ruth Prabhu",
                 blogDesc: "JNaga Chaitanya and Samantha Ruth Prabhu are once again making headlines, and this time fans believe that the ex-couple is planning to get back together. The latest post shared by Chay on his Instagram once again sparked their patch-up rumours, and fans cannot contain their excitement. The Laal Singh Chaddha actor shared the picture of the pet and mentioned 'vibe' in his caption, and it looks like the ex-couple is co-parenting their pet. Samantha's pet Hash is with Chay, and the actor is spending some good time with him while the Kushi actress is away for work.",
@@ -75,6 +89,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "30k",
                 BlogId: 8,
                 blogTitle: "Gadar 2 effect: Sunny Deol starrer along with Aamir Khan gets a whopping offer from OTT giant?",
                 blogDesc: "Gadar 2 is creating waves at the box office even on the 5oth day of release. The film is creating history each day and so far has earned 524.75 crore, has defeated Shah Rukh Khan starrer Pathaan, and is inching towards Jawan. And this massive success has had a positive effect on Sunny Deol's career. This is the highest phase of Sunny Deol's 22 long years of career, and he rightly deserves it. While now the latest update about the star is that his next film, which is produced by Aamir Khan, has got an offer of a whooping amount of Rs 95 crore from an OTT giant, this is an extremely insane feeling for Sunny Deol himself.",
@@ -84,6 +100,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "20k",
                 BlogId: 9,
                 blogTitle: "Alia Bhatt adorably holding Raha Kapoor on their mommy-baby day out is too cute to miss",
                 blogDesc: "Alia Bhatt was spotted in town today along with her little daughter, Raha Kapoor, and what made fans melt their hearts was the way Alia was adorably holding her little one in her arms. The paparazzi managed to capture the cute mommy and daughter in the town, and we cannot get enough of their cuteness. Alia was seen leaving her house and making her way into the car. It looks like Raha's going out today, and we wonder if the little one has gone to Kareena Kapoor Khan's house for a playdate with her brothers Taimur and Jeh. Alia Bhatt was seen wearing a cool pastel-coloured shirt and pant while Raha was matching the outfit with her mommy, and those cute two ponytails of the little one are definitely something you cannot miss.",
@@ -93,6 +111,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "24k",
                 BlogId: 10,
                 blogTitle: "Kareena Kapoor Khan begins shooting for Singham Again; Ranveer Singh aka Simmba reveals a common connection",
                 blogDesc: "Rohit Shetty has begun shooting for his next in the cop-verse, which is Singham Again also known as Singham 3. The upcoming new movie will have Ajay Devgn reprising his role as Bajirao Singham with Ranveer Singh returning as Simmba. Akshay Kumar, Deepika Padukone and Kareena Kapoor Khan are also a part of the project. The shooting commenced on 16th September 2023 with Ajay and Ranveer. The rest of the cast were scheduled to join later. Kareena Kapoor Khan has now joined the shoot of Singham Again She is standing in the middle of the road, all by herself. Bebo captioned the picture saying that she doesn't need to tell which movie she is shooting for. She praised the Rohit Shetty, calling the director one of her favourites. Kareena also reveals that this is her fourth film with Shetty and is sure that it is not going to be her last one.",
@@ -102,6 +122,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "43k",
                 BlogId: 11,
                 blogTitle: "Leo: Thalapathy Vijay, Lokesh Kanagaraj film's Telugu theatrical deal to be revised due to THESE films?",
                 blogDesc: "One of the most anticipated movies to come during Dussehra is Leo. Thalapathy Vijay and Lokesh Kanagaraj have made one of the most hyped films of 2023. The trailer has got a great response so far. We can see Thalapathy Vijay in the main role of Leo Das. The action packed trailer also has Sanjay Dutt, Trisha and Arjun Sarja. Lokesh Kanagaraj has shot the film in the snow clad valleys of Kashmir. The CGI shots of Thalapathy Vijay fighting with a hyena have been appreciated as well. But it looks like there is a issue with theatrical rights in the Telugu belt.",
@@ -111,6 +133,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "45k",
                 BlogId: 12,
                 blogTitle: "Ramayana: Sunny Deol in talks to play Lord Hanuman to Ranbir Kapoor, Sai Pallavi's Ram and Sita?",
                 blogDesc: "Ramayana to be made by Nitesh Tiwari is constantly making news. Ranbir Kapoor and Sai Pallavi have been roped in as the leads, as per reports. The movie will be shot in 2024. Yesterday, news came that Ranbir Kapoor will completely quit meat and consumption of alcohol as he gets into the character of Maryada Purushottam Lord Shri Ram. Now, an entertainment site has reported that the makers have approached Sunny Deol to play the role of Lord Hanuman. It seems Sunny Deol is in talks with the makers for the same. The veteran superstar is in demand after the phenomenal success of Gadar 2.As per Pinkvilla, the makers felt that no one other than Sunny Deol would be perfect for Lord Hanuman. The God is an embodiment of strength and no one else exemplifies it as nicely as Sunny Deol. His macho personality has millions of admirers all over India.",
@@ -120,6 +144,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "100k",
                 BlogId: 13,
                 blogTitle: "Timeless charisma of Amitabh Bachchan: Why Big B remains a fan favourite even at 81",
                 blogDesc: "Amitabh Bachchan, the legendary Bollywood actor, celebrates his birthday on October 11. He been captivating audiences for decades. Even at the age of 81, he continues to hold a special place in the hearts of millions. From his powerful performances to his magnetic personality, here are the top five reasons why Amitabh Bachchan remains an eternal fan favourite.From intense dramas to light-hearted comedies, he effortlessly adapts to any role and brings characters to life with his sheer brilliance. His ability to emote and connect with audiences is unparalleled, leaving a lasting impact on viewers. Whether it's his powerful dialogue delivery or nuanced expressions, Bachchan's acting prowess has stood the test of time.",
@@ -129,6 +155,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "120k",
                 BlogId: 14,
                 blogTitle: "Is Priyanka Chopra planning a movie with her Kaminey director Vishal Bhardwaj?",
                 blogDesc: "Piryanka Chopra Jonas has been making headlines a lot lately. Albeit, for all the wrong reasons. First, she got slammed for not attending cousin Parineeti Chopra's wedding with Raghav Chadha, then she was mired in the Joe Jonas and Sophie Turner divorce. There were reports that the actress has been having a tough time deciding which side to pick. We then heard about her opting out of Farhan Akhtar, Zoya Akhtar's Jee Le Zaraa, also starring Katrina Kaif and Alia Bhatt. But now, looks like there may some exciting news brewing for all PeeCee fans.Priyanka Chopra and Vishal Bhardwaj have met up in the US. The actress shared a picture on her Insta stories. In the pic, we can see her in black shirts, bralet with an orange top. Baby Malti Marie was in an orange tutu set. Vishal Bhardwaj and she were seated on what looked like a golf cart. The filmmaker has just released Khufiya on Netflix.",
@@ -138,6 +166,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'bollyWood',
+                blogDate : '11-10-23',
+                blogClap: "111k",
                 BlogId: 15,
                 blogTitle: "Did Shahid Kapoor indirectly refer to Ranveer Singh, Deepika Padukone as 'insecure couple'? Actress' fans slam him",
                 blogDesc: "One of Shahid Kapoor's interviews has been going viral on social media. He is in conversation with Anupama Chopra. He spoke about how his wife Mira Rajput has influenced his career. He said that she was adamant that he pick up the role of Kabir Singh, which resurrected his career, which was down with a number of flops. He also spoke about how his wife advises him to work with people who match his energy. Shahid Kapoor said that one worked in a film for almost a year, and the vibes of the set affected a person. He said that even though he was a professional, as a human, it is easy to get affected. Shahid Kapoor did not take the name of the Padmavaat couple but somehow people concluded that he was mentioning about them. There were rumours on how Shahid Kapoor was unhappy on the sets of the Sanjay Leela Bhansali film, and felt unhappy that his scenes were chopped off. Though he had a small role, people liked him immensely. Deepika Padukone and Ranveer Singh had also delivered memorable performances in the film.",
@@ -153,6 +183,8 @@ function BlogDataBase(props) {
         [
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "10k",
                 BlogId: 1,
                 blogTitle: "Harry Potter actor Sir Michael Gambon aka Albus Dumbledore passes away at 82; fans say, 'Raise Your Wands",
                 blogDesc: "Harry Potter fans are bereaved. Irish actor Sir Michael Gambon who played the famed head of Hogwarts Albus Dumbledore is six of the eight Harry Potter movies is no more. He died at 82 after a bout of pneumonia. Fans are heartbroken at this sad news. It seemed he died peacefully in his sleep. His widow Lady Gambon and son Fergus issued a short statement confirming the same. His family was by his side. He was the winner of four BAFTA awards. Sir Michael Gambon's demise has saddened millions of Potterheads the world over. His wise words have flooded social media has fans remember themIn his career, he has won Emmy and Tony award nominations too. He was knighted for his services in 1998. His last stage performance was in 2012.",
@@ -162,6 +194,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "93k",
                 BlogId: 2,
                 blogTitle: "Joe Jonas responds to Sophie Turner’s allegation, denies claims that their daughters were 'abducted'",
                 blogDesc: "The divorce between Sophie Turner and Joe Jonas took a bitter turn after the former filed a lawsuit against The Jonas Brothers’ singer and sued him for refusing their daughters’ return to the UK. The actor also claimed that she found out about Joe filing for divorce days after the reports went viral on social media. Following the allegations, Joe responded to the claims made by Sophie and called them ‘misleading’. In the lawsuit filed by Sophie Turner, the actor alleged that the father, Joe Jonas prevented the children’s return from US to UK, which is a “breach of the mother’s rights of custody” under the English law as the children’s habitual residence is the UK.",
@@ -171,6 +205,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "4k",
                 BlogId: 3,
                 blogTitle: "Jimmy Kimmel tests positive for COVID, cancels live show with Jimmy Fallon and Stephen Colbert",
                 blogDesc: "COVID-19 has hit Jimmy Kimmel, the host of Jimmy Kimmel Live, again! Jimmy took to X, formerly called Twitter, to confirm the news. Besides announcing to his fans that he has tested positive for Coronavirus, Jimmy also confirmed that “this weekend's Strike Force Three show” have been called off.“Well, Las Vegas, I got Covid, and sadly, we need to cancel this weekend’s Strike Force Three show,” he tweeted.Jimmy, who thanked all his fans who bought tickets for the upcoming show, assured them that they’d get full refunds. The popular host also confirmed that his team would try to reschedule the show.",
@@ -181,6 +217,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "3k",
                 BlogId: 4,
                 blogTitle: "Travis Kelce’s reaction to Taylor Swift references from NFL commentator goes viral",
 
@@ -192,6 +230,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "3k",
                 BlogId: 5,
                 blogTitle: "Justin Bieber celebrates fifth wedding anniversary with Hailey Bieber: ‘You have captivated my heart’",
                 blogDesc: "It is a special day for pop star Justin Bieber. For it marks his fifth wedding anniversary with wife Hailey Bieber. To celebrate five years of togetherness with Hailey, the ‘Yummy’ singer expressed his love for her in an emotional Instagram note.In the heartwarming note that Justin wrote, he explained how Hailey has “captivated” his heart.",
@@ -202,6 +242,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "2k",
                 BlogId: 6,
                 blogTitle: "Joe Jones, Sophie Turner officially confirm separation; the singer caught the actress on 'ring camera'?",
                 blogDesc: "Joe Jonas and Sophie Turner were seen as an ideal couple by many. Today, the news came that they are headed for a separation. The couple have two very young children. As per Hollywood sources, their personalities just did not match. While Joe Jonas is described as a homebody, Sophie Turner is said to be the partying out-going type. Fans have had varied reactions on this. Many said that Joe Jonas and she dated for a considerable span of time before tying the knot. They wondered how he did not get that their personalities did not match? Sophie Turner has not done any project after Game Of Thrones. It is being assumed that she wants to get back in front of the camera.Sophie Turner said that being a mother is one of the best things in life. The Jonas' family has grown with these girls including Malti Marie Jonas. It seems Joe Jonas is going to file for active co-parenting where he can frequently visit the girls. The only settlement will be of their sprawling marital home.",
@@ -211,6 +253,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "15k",
                 BlogId: 7,
                 blogTitle: "Aquaman and the Lost Kingdom teaser: Jason Momoa-starrer is high on mayhem and monsters",
                 blogDesc: "JAhead of the full trailer of the much-anticipated movie of 2023 Aquaman and the Lost Kingdom which will be released on September 14, DC has released a brief teaser for its fans. The year 2023 may not have been easy for DC Comics following the box office failure of Shazam! Fury of the Gods, Blue Beetle, and The Flash. However, with Aquaman 2, things could turn in its favour!The teaser brings to DC fans Arthur Curry (Jason Momoa) as he gears up to combat new troubles. It is interesting to see him float, reign and guard the waters. “I’m gonna kill Aquaman” is the unsettling threat from Black Manta (Yahya Abdul-Mateen II) who is hellbent on destroying everything Aquaman holds. A few seconds later, Aquaman rises from the sea on a massive and blue seahorse. What’s unmissable is an octopus that clings to the seahorse. The teaser also brings to the viewers quick snapshots of his house on fire, underwater clashes, and new underwater enemies.",
@@ -220,6 +264,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "30k",
                 BlogId: 8,
                 blogTitle: "BTS: Did Jungkook really break the smoking laws of California? Fact Check",
                 blogDesc: "BTS member Jeon Jungkook has made headlines after his smoking video went viral. Jungkook was in Los Angeles, California for some work related commitments. The Golden Maknae of BTS apparently went for a meal to Matsuhisa, which is a restaurant popular with celebrities of Los Angeles. There were many who said that Jungkook broke the smoking laws of the state of California. As we know, laws in US states about smoking and non-smoking zones differ. Jungkook was seen outside the game of the eatery smoking with a staff member. Some also highlighted that he threw the stub of the cigarette on the streets.",
@@ -229,6 +275,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "20k",
                 BlogId: 9,
                 blogTitle: "Jungkook turns 26: Jimin wishes the Golden Maknae with a shirtless pic showing off his moon tattoo; netizens go, 'Damn' [Check Reactions]",
                 blogDesc: "BTS member Jungkook has turned 26. The BTS ARMY is celebrating the occasion all over the globe. Wishes have started pouring in from the band members. Jimin has been the first to wish Jungkook on Instagram. He has posted a shirtless pic of the two. We can see the full moon tattoo on the back of Jimin. This is the first time that he has posted a back profile pic in this manner. Fans are wondering what the other members have in store for ARMY now. Needless to say, there is a meltdown and Jikook is trending like crazy.",
@@ -238,6 +286,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "24k",
                 BlogId: 10,
                 blogTitle: "Nick Jonas can’t get enough of these 3 Indian cuisines, can you guess?",
                 blogDesc: "Nick Jonas’ love for India is known by all. Ever since he married Priyanka Chopra in 2018, the singer keeps posting videos of him grooving to Bollywood songs. The singer, who is currently on a tour with the Jonas Brothers, was quizzed by a fan after a recent concert about his favorite Indian cuisines. Nick went on impressing his Indian fans with his answers and proved why he is called the ‘national jiju of India’.In a video going viral on social media, a fan asked Nick about his favorite Indian dishes. To which he replied, “Oh I like Paneer, Lamb Biryani, and you know a Dosa, yeah I like Dosa.",
@@ -247,6 +297,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "43k",
                 BlogId: 11,
                 blogTitle: "Deep V. Heard on OTT: Read what critics have to say about the documentary series that created a storm on social media",
                 blogDesc: "One of the most talked about criminal trials of the century, the infamous defamation case between Hollywood stars and former couple Johnny Depp and Amber Heard became the most popular talking point across the globe last year. On Thursday, streaming giant Netflix released its own miniseries, a documentary based on the case titled Depp V. Heard. The three-part series showcased the testimonies of both the actors side-by-side for the first time and explored the trial that had social media users on their toes. If you’re planning to watch the docuseries, you should definitely take a look at what the critics have to say about Depp V. Heard.The critical response to the latest docu series on Netflix has been a mixed set of reactions. While some are lauding the never-seen-before aspects of the case showcased in the series, others have called out the incomplete and biased portrayal of the defamation case.",
@@ -256,6 +308,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "45k",
                 BlogId: 12,
                 blogTitle: "The Batman Box Office (Worldwide): Robert Pattinson Starrer Is All Set To Touch $500 Million Milestone",
                 blogDesc: "The Batman saw a drop during the week but picked up during its second weekend. According to BoxOfficeMojo, the Robert Pattinson starrer has collected $463,220,826 at the worldwide box office, which means that it is reaching the half a billion mark ($500 million). Only a few Hollywood hits like Spider-Man: No Way Home, No Time to Die, F9, and Venom: Let There Be Carnage have been able to hit that benchmark during the pandemic. If you’re planning to watch the docuseries, you should definitely take a look at what the critics have to say about Depp V. Heard.The critical response to the latest docu series on Netflix has been a mixed set of reactions. While some are lauding the never-seen-before aspects of the case showcased in the series, others have called out the incomplete and biased portrayal of the defamation case.",
@@ -265,6 +319,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "100k",
                 BlogId: 13,
                 blogTitle: "Lily Collins pens note on 2nd wedding anniversary with Charlie McDowell: ‘Thank you for being the greatest partner’",
                 blogDesc: "One of the most talked about criminal trials of the century, the infamous defamation case between Hollywood stars and former couple Johnny Depp and Amber Heard became the most popular talking point across the globe last year. On Thursday, streaming giant Netflix released its own miniseries, a documentary based on the case titled Depp V. Heard. The three-part series showcased the testimonies of both the actors side-by-side for the first time and explored the trial that had social media users on their toes. If you’re planning to watch the docuseries, you should definitely take a look at what the critics have to say about Depp V. Heard.The critical response to the latest docu series on Netflix has been a mixed set of reactions. While some are lauding the never-seen-before aspects of the case showcased in the series, others have called out the incomplete and biased portrayal of the defamation case.",
@@ -274,6 +330,8 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "120k",
                 BlogId: 14,
                 blogTitle: "Harry Potter and the Goblet of Fire",
                 blogDesc: "One of the most talked about criminal trials of the century, the infamous defamation case between Hollywood stars and former couple Johnny Depp and Amber Heard became the most popular talking point across the globe last year. On Thursday, streaming giant Netflix released its own miniseries, a documentary based on the case titled Depp V. Heard. The three-part series showcased the testimonies of both the actors side-by-side for the first time and explored the trial that had social media users on their toes. If you’re planning to watch the docuseries, you should definitely take a look at what the critics have to say about Depp V. Heard.The critical response to the latest docu series on Netflix has been a mixed set of reactions. While some are lauding the never-seen-before aspects of the case showcased in the series, others have called out the incomplete and biased portrayal of the defamation case.",
@@ -283,8 +341,10 @@ function BlogDataBase(props) {
 
             {
                 blogCategory: 'hollyWood',
+                blogDate : '11-10-23',
+                blogClap: "111k",
                 BlogId: 15,
-                blogTitle: "Alice in Wonderland",
+                blogTitle: "Alice in Wonderland, Alice in Wonderland",
                 blogDesc: "One of the most talked about criminal trials of the century, the infamous defamation case between Hollywood stars and former couple Johnny Depp and Amber Heard became the most popular talking point across the globe last year. On Thursday, streaming giant Netflix released its own miniseries, a documentary based on the case titled Depp V. Heard. The three-part series showcased the testimonies of both the actors side-by-side for the first time and explored the trial that had social media users on their toes. If you’re planning to watch the docuseries, you should definitely take a look at what the critics have to say about Depp V. Heard.The critical response to the latest docu series on Netflix has been a mixed set of reactions. While some are lauding the never-seen-before aspects of the case showcased in the series, others have called out the incomplete and biased portrayal of the defamation case.",
                 blogImg: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F4BD6991B21975E4A57D6385120C5E7BEE5B04CA54AB3DC9847B5CB661D9D306/scale?width=1200&aspectRatio=1.78&format=jpeg'
 
@@ -296,6 +356,8 @@ function BlogDataBase(props) {
     const [fiteness] = useState([
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "10k",
             BlogId: 1,
             blogTitle: "TOP 5 PUSH UP VARIATIONS THE BEST PRESSING VARIATIONS FOR STRENGTH, SIZE, AND POWER!",
 
@@ -307,6 +369,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "93k",
             BlogId: 2,
             blogTitle: "TOP 5 FUNCTIONAL SINGLE LEG EXERCISES A SINGLE LEG VARIANT FOR ANY GOAL",
 
@@ -318,6 +382,9 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "4k",
+
             BlogId: 3,
             blogTitle: "FULL RANGE OF MOTION FOREVER FORGET 90-DEGREES",
 
@@ -329,6 +396,9 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "3k",
+
             BlogId: 4,
             blogTitle: "LAT PULLDOWNS DON’T TRAIN THE LATS? DEBUNKING THIS DUBIOUS LAT PULLDOWN CLAIM",
 
@@ -340,6 +410,9 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "3k",
+
             BlogId: 5,
             blogTitle: "HOW MUCH DOES PERSONAL TRAINING COST? IN-PERSON, ONLINE AND EVERYTHING IN-BETWEEN",
 
@@ -351,6 +424,9 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "2k",
+
             BlogId: 6,
             blogTitle: "WHY WORKOUTS DON’T WORK FOR HEALTH & LONGEVITY AND WHAT TO DO INSTEAD...",
 
@@ -362,6 +438,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "15k",
             BlogId: 7,
             blogTitle: "5 Ways Pilates Can Ease Menopause Hip Pain & The Connection Between Menopause and Hip Pain",
 
@@ -373,6 +451,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "30k",
             BlogId: 8,
             blogTitle: "WHAT TO EXPECT IN THE GYM WHEN YOU’RE EXPECTING",
 
@@ -384,6 +464,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "20k",
             BlogId: 9,
             blogTitle: "EVERYTHING AND NOTHING CAUSES LOW BACK PAIN",
 
@@ -395,6 +477,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "24k",
             BlogId: 10,
             blogTitle: "SHOULD YOU USE STRAPS WHEN DEADLIFTING? ",
 
@@ -406,6 +490,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "43k",
             BlogId: 11,
             blogTitle: "TEXTBOOK TECHNIQUE AND WHY IT DOESN’T EXIST ",
 
@@ -417,6 +503,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "45k",
             BlogId: 12,
             blogTitle: "fitness freak celebrities in India",
 
@@ -428,6 +516,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "100k",
             BlogId: 13,
             blogTitle: "Heat-proof your heart: Exercise tips to shield against heat-related cardiovascular events ",
 
@@ -439,6 +529,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "120k",
             BlogId: 14,
             blogTitle: "Can Aerobic Exercise Improve Cognitive Function and Decrease Alzheimer's Disease Risk?",
 
@@ -450,6 +542,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'fiteness',
+            blogDate : '11-10-23',
+            blogClap: "111k",
             BlogId: 15,
             blogTitle: "Morning workout & New Exercises and Activities to Try If You Have MS",
 
@@ -460,10 +554,12 @@ function BlogDataBase(props) {
         },
     ]);
 
-    const [technology ] = useState([ 
+    const [technology] = useState([
 
         {
-            blogCategory: 'technology',
+            blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "10k",
             BlogId: 1,
             blogTitle: "This week in data: AI stack tricks, generative AI adoption, the future of composability",
 
@@ -475,18 +571,22 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "93k",
             BlogId: 2,
             blogTitle: " AI App Puts New Life in Old Photos",
-            
+
             blogDesc: "Nostalgia website MyHeritage has launched a new service that allows you to create lifelike animations of faces in still photos. The AI-powered service called Deep Nostalgia, launched last week, is free to try and is remarkably accurate in depicting how a person would look if captured on video. Their eyes blink, their head moves and their mouth forms a smile.",
-            
+
             blogImg: "https://www.technewsworld.com/wp-content/uploads/sites/3/2021/05/xl-2021-my-heritage-1.jpg",
         },
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "4k",
             BlogId: 3,
-            
+
             blogTitle: "Stuart Russell wrote the textbook on AI safety. He explains how to keep it from spiraling out of control.",
 
             blogDesc: "One of the hardest parts of the news business is striking a balance between covering stories that seem important in the moment and covering stories that you know will truly matter in the future. And it’s hard because the most consequential things happening right now are often boring or difficult to explain.Artificial intelligence is a good example of this sort of challenge. The ongoing revolution in AI is unfolding so quickly that it’s hard to keep up, even if you’re trying. Chat GPT-4, for instance, was released in March of this year and it stunned almost everyone who used it. If this latest large language model is a sign of what’s coming, it’s easy to imagine all the ways it might change the world — and then there are all the ways it might change the world that we can’t imagine.",
@@ -496,8 +596,10 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "3k",
             BlogId: 4,
-            
+
             blogTitle: "AMD acquires open-source AI software pioneer Nod.ai to fortify AI capabilities.",
 
             blogDesc: "Advanced Micro Devices (AMD) announced today plans to acquire Nod.ai, a startup that specializes in optimizing AI software for high-performance hardware. The agreement underscores AMD’s growth strategy in the AI sector, which is centered on an open software ecosystem that simplifies the adoption process for customers through developer tools, libraries, and models. This acquisition adds another feather to AMD’s cap as it continues its expansion into the rapidly evolving AI industry.AMD has been investing heavily in AI technologies in recent years , such as CDNA, XDNA, RDNA and Zen architectures, to compete with rivals like Nvidia and Intel in the fast-growing AI market. ",
@@ -507,8 +609,11 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "3k",
+
             BlogId: 5,
-            
+
             blogTitle: "Researchers turn to Harry Potter to make AI forget about copyrighted material.",
 
             blogDesc: "As the debate heats up around the use of copyrighted works to train large language models (LLMs) such as OpenAI’s ChatGPT, Meta’s Llama 2, Anthropic’s Claude 2, one obvious question arises: can these models even be altered or edited to remove their knowledge of such works, without totally retraining them or rearchitecting them? As the Microsoft researchers write: “While the model took over 184K GPU-hours to pretrain, we show that in about 1 GPU hour of finetuning, we effectively erase the model’s ability to generate or recall Harry Potter-related content.” This work provides an important step toward adaptable language models. The ability to refine AI over time according to shifting organizational needs is key to long-term, enterprise-safe deployments.",
@@ -518,8 +623,11 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "2k",
+
             BlogId: 6,
-            
+
             blogTitle: "DeepMind’s ‘remarkable’ new AI controls robots of all kinds, VentureBeat presents: AI Unleashed.",
 
             blogDesc: "One of the big challenges of robotics is the amount of effort that has to be put into training machine learning models for each robot, task, and environment. Now, a new project by Google DeepMind and 33 other research institutions aims to address this challenge by creating a general-purpose AI system that can work with different types of physical robots and perform many tasks.To overcome this and make it far easier and faster to train and deploy robots, the new project, dubbed Open-X Embodiment, introduces two key components: a dataset containing data on multiple robot types and a family of models capable of transferring skills across a wide range of tasks. The researchers put the models to the test in robotics labs and on different types of robots, achieving superior results in comparison to the commonly used methods for training robots .",
@@ -529,8 +637,10 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "15k",
             BlogId: 7,
-            
+
             blogTitle: "OpenAI CEO Sam Altman foresees ‘breathtaking’ scientific discoveries, muses on geoengineering",
 
             blogDesc: "OpenAI co-founder and CEO Sam Altman wasn’t a well known figure outside of the tech sector until recently, but following his company’s rapid ascent to the top of the competitive generative AI landscape propelled by its hit product ChatGPT, and his own “world tour” visiting politicians in different countries, he is becoming an increasingly important and influential voice on the global landscape. Clearly, despite some recent alarming news when it comes to climate change (we just experienced the hottest September on record by a long shot), and ongoing global economic issues and geopolitical tensions, Altman is encouraged by scientific progress and humanity’s potential for technological advancement. Time will tell if his view is warranted.An exclusive invite-only evening of insights and networking, designed for senior enterprise executives overseeing data stacks and strategies.",
@@ -540,8 +650,10 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "30k",
             BlogId: 8,
-            
+
             blogTitle: "IBM propels PyTorch beyond model training into AI inference",
 
             blogDesc: "The open source PyTorch machine learning (ML) framework is widely used today for AI training, but that’s not all it can do. IBM sees broader applicability for PyTorch and is working on a series of development initiatives that will see PyTorch used for inferencing.In an exclusive interview with VentureBeat, Raghu Ganti, principal research staff member at IBM detailed new research efforts that enable PyTorch to become a more viable enterprise option for inference. The market for inferencing technology software today has multiple players, with perhaps none larger than Nvidia’s Triton inferencing server. IBM’s goal with its PyTorch research is not necessarily to displace other technologies, but to provide a new open source alternative for inference that will run on multiple vendor technologies, as well as on both GPU and CPUs.Much of the community has been looking at PyTorch as a way to train models,” Ganti told VentureBeat.",
@@ -552,8 +664,10 @@ function BlogDataBase(props) {
 
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "20k",
             BlogId: 9,
-            
+
             blogTitle: "Docker dives into AI to help developers build GenAI apps",
 
             blogDesc: "Underneath just about every generative AI application for training or inference today you’ll likely find Docker containers as the primary approach to deployment.Today at the Dockercon conference in Los Angeles, Docker Inc., the eponymous company behind the open source docker container technology, is taking a dive into the deep end of AI with a series of initiatives designed to help developers more rapidly build generative AI applications. Among the efforts is the launch of a new GenAI stack that integrates docker with the Neo4j graph database, LangChain model chaining technology and Ollama for running large language models (LLMs). The new Docker AI product is also debuting at Dockercon, as an integrated way for developers to get AI powered insights and direction for development with containers.",
@@ -561,11 +675,13 @@ function BlogDataBase(props) {
             blogImg: "https://venturebeat.com/wp-content/uploads/2023/10/Screen-Shot-2023-10-04-at-5.20.26-PM.png?fit=750%2C465&strip=all",
         },
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "24k",
             BlogId: 10,
-            
+
             blogTitle: "Reka launches Yasa-1, a multimodal AI assistant to take on ChatGPT",
 
             blogDesc: "Reka, the AI startup founded by researchers from DeepMind, Google and Meta, has announced Yasa-1, a multimodal AI assistant that goes beyond text to understand images, short videos and audio snippets.Available in private preview, Yasa-1 can be customized on private datasets of any modality, allowing enterprises to build new experiences for a myriad of use cases. The assistant supports 20 different languages and also brings the ability to provide answers with context from the internet, process long context documents and execute code.It comes as the direct competitor of OpenAI’s ChatGPT, which recently got its own multimodal upgrade with support for visual and audio prompts.“I’m proud of what the team has achieved, going from an empty canvas to an actual full-fledged product in under 6 months,” Yi Tay, the chief scientist and co-founder of the company, wrote on X (formerly Twitter). ",
@@ -574,11 +690,13 @@ function BlogDataBase(props) {
         },
 
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "43k",
             BlogId: 11,
-            
+
             blogTitle: "Canva adds generative video with Runway and new AI-powered Magic Studio",
 
             blogDesc: "Canva, the Australian online graphic design and multimedia company whose web-based platform is used by numerous media organizations worldwide to create graphics and multimedia (including VentureBeat), is celebrating its 10th anniversary with a sweeping update of numerous AI features, including offering a new generative video tool through a partnership with AI video startup Runway ML.With Canva’s massive Magic Studio update announced today, users of the platform can access a feature called Magic Media that allows them to simply type text into a field or upload a still image. Then, Canva’s Runway integration will generate up to 18 seconds of video based on what the user provided. In the case of text, the video will be generated based on the words provided. In the case of a still image, the image will be used as the basis of the video and motion and camera movement applied. ",
@@ -587,11 +705,13 @@ function BlogDataBase(props) {
         },
 
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "45k",
             BlogId: 12,
-            
+
             blogTitle: "Dell customizes GenAI and focuses on data lakehouse",
 
             blogDesc: "Dell Technologies is growing its portfolio of generative AI products and services to help more of its customers harness the power of artificial intelligence.Today Dell announced a series of initiatives that expand on the company’s generative AI efforts that it has been incrementally rolling out since early 2023. Back in May, Dell announced Project Helix in partnership with Nvidia as an effort to bring the power of large language models (LLMs) to on premises environments with Dell hardware. A few months later in July, Dell and Nvidia announced the first fruits of the Project Helix effort with validated designs for running AI inference workloads and professional services to support enterprise deployments. Now Dell is going a step further with validated designs for model customization with Nvidia to help organizations fine tune AI.Dell is also now detailing its strategy for enabling data for generative AI, with an open data lakehouse platform that benefits from a partnership with data query platform vendor Starburst.",
@@ -600,11 +720,13 @@ function BlogDataBase(props) {
         },
 
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "100k",
             BlogId: 13,
-            
+
             blogTitle: "Meta’s AI stickers are here and already causing controversy",
 
             blogDesc: "Well, that didn’t take long: Just a week after Meta announced a “universe of AI” for Facebook, Instagram and WhatsApp, the company’s new AI-generated stickers are already causing controversy.Some users have already received an update allowing them to quickly create AI-generated stickers from text prompts in Facebook Messenger and Instagram Messenger. However, it seems that Meta’s filters to block objectionable or questionable content are not catching everything, allowing for all sorts of interesting mashups, such as copyrighted children’s characters like Mickey Mouse being shown smoking a marijuana cigar (blunt), or Winnie the Pooh (whose copyright term just ended) holding a rifle.Artist Pier-Olivier Desbiens posted on X this evening, immediately garnering hundreds of thousands of views and comments with additional sticker images.When questioned about the kind of stickers being created and shared on X, Meta spokesperson Andy Stone pointed VentureBeat to a blog post, “Building Generative AI Features Responsibly.”",
@@ -613,11 +735,13 @@ function BlogDataBase(props) {
         },
 
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "120k",
             BlogId: 14,
-            
+
             blogTitle: "Zoom Docs arrives to take on Google Docs, Notion, offers a new hub for teamwork",
 
             blogDesc: "The “end meeting” button may only be the start for Zoom users next year. At its annual Zoomtopia conference this week, Zoom showcased several significant updates and new products that aim to further streamline hybrid work and collaboration. Headlining the announcements was Zoom Docs, a fully-integrated AI-powered, multi-user cloud documentation solution built directly into the Zoom platform.In a release, Zoom CEO Eric Yuan emphasized Zoom’s continued promise to evolve its platform through powerful AI capabilities. “Our new innovations demonstrate Zoom’s commitment to evolving our platform in ways that empower limitless human connection and solve real business problems,” said Yuan. At its core, Zoom Docs provides document creation, editing, and collaboration features like other cloud document solutions. However, its tight integration across Zoom differentiates the product.Documents, wikis, tables and other content can all be created, edited and searched for within Zoom Meetings, Team Chat or the Zoom web and desktop apps, offering a direct competitor to up-and-comer Notion. ",
@@ -626,11 +750,13 @@ function BlogDataBase(props) {
         },
 
 
-        
+
         {
             blogCategory: "technology",
+            blogDate : '11-10-23',
+            blogClap: "111k",
             BlogId: 15,
-            
+
             blogTitle: "How AI-powered patch management protects remote and hybrid workers",
 
             blogDesc: "Most organizations have no idea how many exposed, out-of-date endpoints they have or whether their remote and hybrid workers are safe. IT and security teams are often overwhelmed with work and conflicting urgent priorities. Unfortunately, it often takes an intrusion or breach for patching to become a priority. Cybercrime gangs and state-sponsored Advanced Persistent Threat (APT) threat actors who have launched the largest breaches in history — including the A.P. Møller-Maersk ransomware attack — often understand a target’s network better than admins. Whoever owns identities owns the business, and as devastating ransomware attacks show, threat actors are brazen about shutting an entire business down to meet demands.Complacency kills, especially when it comes to understanding where endpoints that remote and hybrid workers rely on are, and whether they’re current or not. More than half (60%) of enterprises know less than 75% of the endpoint devices on their network. Only 58% can identify every attacked or vulnerable asset on their network within 24 hours of an exploit.",
@@ -643,9 +769,11 @@ function BlogDataBase(props) {
     ]);
 
     const [sports] = useState([
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "10k",
             BlogId: 1,
             blogTitle: "Cricket in 2028 LA Olympics: How the sport and Games can benefit from its inclusion",
 
@@ -657,6 +785,8 @@ function BlogDataBase(props) {
 
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "93k",
             BlogId: 2,
             blogTitle: "Cricket should not overshadow achievements in other sports",
 
@@ -665,9 +795,12 @@ function BlogDataBase(props) {
             blogImg: 'https://static.toiimg.com/thumb/width-800,height-450,imgsize-69722,msid-104244984/104244984.jpg'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "4k",
+
             BlogId: 3,
             blogTitle: "NFL Power Rankings: Panthers might have really screwed up trading up for Bryce Young",
 
@@ -676,9 +809,12 @@ function BlogDataBase(props) {
             blogImg: 'https://s.yimg.com/ny/api/res/1.2/vvaZAxG8XUpvyFsmaVWOfQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2023-10/94adbc10-66bd-11ee-bdfb-f57ccf1fac63'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "3k",
+
             BlogId: 4,
             blogTitle: "Shubman Gill spends night in hospital, set to miss India vs Pakistan World Cup encounter: Report",
 
@@ -687,9 +823,12 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/09/India-Pakistan-Group-A-Asia-Cup-AP-640.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "3k",
+
             BlogId: 5,
             blogTitle: "World Cup 2023: 'There's age factor' — Sehwag wants India to rest senior player for match vs Afghanistan",
 
@@ -698,9 +837,12 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/R-Ashwin-1.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "2k",
+
             BlogId: 6,
             blogTitle: "Asian Games 2023: India men's hockey team beat Japan 5-1 in final to clinch gold, qualify for 2024 Paris Olympics",
 
@@ -709,9 +851,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/India-hockey-640_AP.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "15k",
             BlogId: 7,
             blogTitle: "Deep Grace Ekka Exclusive: 'Indian women's hockey team is going to Asian Games with only one aim, to win gold'",
 
@@ -720,9 +864,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/09/Deep-Grace-Ekka1.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "30k",
             BlogId: 8,
             blogTitle: "India lose 4-5 to Pakistan in men's Asian Hockey 5s World Cup Qualifier",
 
@@ -731,9 +877,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/08/India-Pakistan-hockey-5s-640.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "20k",
             BlogId: 9,
             blogTitle: "World Cup: Kohli, Rahul and Jadeja star in India's six-wicket victory over Australia",
 
@@ -742,9 +890,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/Kohli-Rahul-640_AP.jpg?impolicy=website&width=640&height=395'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "24k",
             BlogId: 10,
             blogTitle: "'Played and had fun': Eden Hazard, Chelsea and Belgium legend, announces retirement",
 
@@ -753,9 +903,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/Eden-Hazard.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "43k",
             BlogId: 11,
             blogTitle: "UEFA picks UK-Ireland to host 2028 European Championship, Italy-Turkey to stage Euro 2032",
 
@@ -764,9 +916,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/Euro-2028.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "45k",
             BlogId: 12,
             blogTitle: "Merdeka Cup 2023: Revised schedule announced; India matches, squad, LIVE Streaming",
 
@@ -775,9 +929,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/09/India-football-team-live-640.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "100k",
             BlogId: 13,
             blogTitle: "Exclusive: Rohan Bopanna opens up winning Asian Games mixed doubles gold with Rutuja Bhosale on First Sports",
 
@@ -786,9 +942,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/Rohan-Bopanna-mixed-doubles-gold-Asian-Games-PTI-640.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "120k",
             BlogId: 14,
             blogTitle: "China Open 2023: Iga Swiatek hails 'really big' victory in Beijing",
 
@@ -797,9 +955,11 @@ function BlogDataBase(props) {
             blogImg: 'https://images.firstpost.com/wp-content/uploads/2023/10/Iga-Swiatek-China-Open-AP-640.jpg?impolicy=website&width=640&height=363'
 
         },
-        
+
         {
             blogCategory: 'sports',
+            blogDate : '11-10-23',
+            blogClap: "111k",
             BlogId: 15,
             blogTitle: "Chirag Shetty-Satwiksairaj Rankireddy rise to World No 1 in BWF Rankings",
 
@@ -812,7 +972,7 @@ function BlogDataBase(props) {
     ]);
 
     return (
-        <BlogData.Provider value={{ bollyWood, hollyWood, fiteness, technology , sports }}>
+        <BlogData.Provider value={{ bollyWood, hollyWood, fiteness, technology, sports }}>
             {props.children}
         </BlogData.Provider>
     )

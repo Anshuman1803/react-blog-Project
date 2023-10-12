@@ -27,6 +27,9 @@ function BlogTech() {
             <p className="blogDesc">
               {data.blogDesc.slice(0, 180)} ...
             </p>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
           </div>
         </div>
         <hr className='hrLine' />
@@ -46,6 +49,9 @@ function BlogTech() {
           </div>
           <div className=" FirstTopPost-TitleBox">
             <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle FirstTopPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
             <span className='postNumbering'>{blogNumbering}</span>
           </div>
         </div>
@@ -60,8 +66,11 @@ function BlogTech() {
             <img src={data.blogImg} alt="TopPostPoster" className='TopPostPoster' />
           </div>
           <div className="TopPost-TitleBox">
-            <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
-            <span className='postNumbering'>{++blogNumbering}</span>
+            <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 45)}</Link>
+            <p className="categoryWithDateox">
+              {data.blogCategory} : {data.blogDate}
+            </p>
+           <span className='postNumbering'>{++blogNumbering}</span>
           </div>
         </div>
 

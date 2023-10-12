@@ -10,6 +10,8 @@ function ReadBlogCompo() {
   let getClickedData = (data) => {
     if (data.BlogId === Number(paramData.ID)) {
       return <article className="ReadBlog" key={data.BlogId}>
+         <p className="clapCount fixedIcon"><i className="fa-solid fa-hands-clapping"></i> <span>{data.blogClap}</span></p>
+      <p className="Share fixedIcon"><i className="fa-solid fa-share-nodes"></i> <span>Share This Blog</span></p>
         <h2 className="ReadBlog-Title">{data.blogTitle}</h2>
         <div className="PublisehrBox">
           <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="ProfilePhoto" className='profileImg' />
@@ -34,6 +36,7 @@ function ReadBlogCompo() {
             <span className="PublisherName">Anshuman</span>
             <span className='BlogTime'>1 Day Ago</span>
           </div>
+          <span className='clapCount2'> <i className="fa-solid fa-hands-clapping"></i>{data.blogClap}</span>
         </div>
       </article>
     }
@@ -42,7 +45,7 @@ function ReadBlogCompo() {
 
   let getMoreBlogsData = (data, index) => {
     if (data.BlogId !== Number(paramData.ID) && index < 4) {
-      return <div className="MoreBlogs">
+      return <div className="MoreBlogs" key={index}>
         <img src={data.blogImg} alt="blogPoster" className='moreBolgsPosters' />
         <Link to={`/${data.blogCategory}/${data.BlogId}`} className="blogTitle " >   <h2 className="blogTitle moreBolgsTitle">
           {data.blogTitle.slice(0, 58)} ...
@@ -61,8 +64,6 @@ function ReadBlogCompo() {
   }
   return (
     <section className="ReadBlog-Section">
-      <p className="clapCount fixedIcon"><i className="fa-solid fa-hands-clapping"></i> <span>{"12.8k"}</span></p>
-      <p className="Share fixedIcon"><i className="fa-solid fa-share-nodes"></i> <span>Share This Blog</span></p>
       {
         allBlogs[paramData.Blog].map(getClickedData)
       }
