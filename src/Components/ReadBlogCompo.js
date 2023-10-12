@@ -7,6 +7,7 @@ function ReadBlogCompo() {
   let navigateBack = useNavigate();
   let paramData = useParams();
   let allBlogs = useContext(BlogData);
+  let moreBlogCount = 1;
 
   let getClickedData = (data) => {
     if (data.BlogId === Number(paramData.ID)) {
@@ -19,7 +20,7 @@ function ReadBlogCompo() {
 
           <div className="NameBox">
             <span className="PublisherName">Anshuman</span>
-            <span className='BlogTime'>1 Day Ago</span>
+            <span className='BlogTime'>{data.blogDate}</span>
           </div>
           <div className="socialSites">
             <i className="fa-brands fa-facebook socialIcons"></i>
@@ -35,7 +36,7 @@ function ReadBlogCompo() {
 
           <div className="NameBox">
             <span className="PublisherName">Anshuman</span>
-            <span className='BlogTime'>1 Day Ago</span>
+            <span className='BlogTime'>{data.blogDate}</span>
           </div>
           <span className='clapCount2'> <i className="fa-solid fa-hands-clapping"></i>{data.blogClap}</span>
         </div>
@@ -45,8 +46,9 @@ function ReadBlogCompo() {
   }
 
   let getMoreBlogsData = (data, index) => {
-    if (data.BlogId !== Number(paramData.ID) && index < 4) {
-      return <div className="MoreBlogs" key={index}>
+    if (data.BlogId !== Number(paramData.ID) && moreBlogCount <=4) {
+      moreBlogCount++
+     return <div className="MoreBlogs" key={index}>
         <img src={data.blogImg} alt="blogPoster" className='moreBolgsPosters' />
         <Link to={`/${data.blogCategory}/${data.BlogId}`} className="blogTitle " >   <h2 className="blogTitle moreBolgsTitle">
           {data.blogTitle.slice(0, 58)} ...
@@ -56,7 +58,7 @@ function ReadBlogCompo() {
 
           <div className="NameBox">
             <span className="PublisherName">Anshuman</span>
-            <span className='BlogTime'>1 Day Ago</span>
+            <span className='BlogTime'>{data.blogDate}</span>
           </div>
         </div>
       </div>
@@ -68,7 +70,7 @@ function ReadBlogCompo() {
       {
         allBlogs[paramData.Blog].map(getClickedData)
       }
-      <button className="navigateBackBtn" onClick={()=> navigateBack(-1)}>Back</button>
+      <button className="navigateBackBtn" onClick={() => navigateBack(-1)}>Back</button>
 
       <div className="moreBlogContainer">
         <h3 className='moreBlogHeading'>More From The Siren</h3>
