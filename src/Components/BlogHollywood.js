@@ -49,7 +49,7 @@ function BlogHollywood() {
           <div className=" FirstTopPost-TitleBox">
           <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle FirstTopPostTitle" >  {data.blogTitle.slice(0, 65)}</Link>
           <p className="categoryWithDateox">
-              {data.blogCategory} : {data.blogDate}
+              {data.blogCategory}
             </p>
           <span className='postNumbering'>{blogNumbering}</span>
           </div>
@@ -67,7 +67,7 @@ function BlogHollywood() {
           <div className="TopPost-TitleBox">
           <Link to={`/${data.blogCategory}/${data.BlogId}`} className="topPostTitle" >  {data.blogTitle.slice(0, 45)}...</Link>
           <p className="categoryWithDateox">
-              {data.blogCategory} : {data.blogDate}
+              {data.blogCategory}
             </p>
             <span className='postNumbering'>{++blogNumbering}</span>
           </div>
