@@ -46,7 +46,7 @@ h1 {
   font-size: 40px;
 }
 
-.App-Heading .HeadingText {
+.HeadingText {
   color: #ED0800;
   transform: rotate(-90deg);
   font-size: 25px;
@@ -498,7 +498,7 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   position: fixed;
-  left:2%;
+  left: 2%;
   width: 175px;
   display: flex;
   align-items: center;
@@ -618,6 +618,56 @@ h1 {
   height: 300px;
   position: relative;
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Footer-Col {
+  padding: 0.5em;
+}
+
+.Footer-col1 {
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.FooterLogo {
+  width: 90px;
+}
+
+.Footer-col2 {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.footerLinks {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+.footerLinks:hover{
+  cursor: pointer;
+  color: #ea580c;
+}
+
+.Footer-col3 {
+  grid-column: 3/4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+.FooterSIcon{
+font-size: 25px;
+color:#1E293B;
+}
+.FooterSIcon:hover{
+  cursor: pointer;
+  color: #c44501;
 }
 
 @media screen and (max-width: 951px) {
@@ -757,7 +807,47 @@ h1 {
   .profileImg {
     width: 60px;
   }
+  
+  .App-Footer {
+    height: 500px;
+     grid-template-columns: 100%;
+     grid-template-rows: 100px 200px 200px;
+   }
+   
+   .Footer-col1 {
+     grid-column: 1/2;
+    grid-row: 1/2;
+   }
+   
+   .FooterLogo {
+     width: 60px;
+   }
+   
+   .Footer-col2 {
+     grid-column: 1/2;
+     grid-row: 2/3;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     place-items: center;
+   }
+   
+   .footerLinks {
+     font-size: 16px;
+     font-weight: 800;
+   }
+   
+   .Footer-col3 {
+     grid-column: 1/2;
+     grid-row: 3/4;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     place-items: center;
+   }
+   .FooterSIcon{
+   font-size: 20px;
+   }
 }
+
 
 @media screen and (max-width: 500px) {
   .Hero-Section {
@@ -849,4 +939,13 @@ h1 {
     position: absolute;
     bottom: 10%;
   }
+   .Footer-col2 {
+     grid-template-columns: repeat(2, 1fr);
+   }
+   
+   
+   .Footer-col3 {
+     grid-template-columns: repeat(2, 1fr);
+   }
+
 }
