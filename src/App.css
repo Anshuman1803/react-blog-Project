@@ -529,7 +529,8 @@ h1 {
   position: absolute;
   right: 15px;
 }
-.navigateBackBtn{
+
+.navigateBackBtn {
   border: 1px solid grey;
   background-color: #bfbfbf;
   font-weight: 800;
@@ -539,7 +540,8 @@ h1 {
   border-radius: 10px;
   font-size: 18px;
 }
-.navigateBackBtn:hover{
+
+.navigateBackBtn:hover {
   cursor: pointer;
   background-color: #cfcfcf;
 }
@@ -678,6 +680,14 @@ h1 {
     display: none;
   }
 
+  .moreBlogBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .MoreBlogs {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -813,6 +823,17 @@ h1 {
     padding: 2em 0.5em;
   }
 
+  .moreBlogBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .MoreBlogs {
+    width: 95;
+  }
+
   .NameBox {
     width: 60%;
   }
@@ -825,7 +846,8 @@ h1 {
     text-align: left;
     font-size: 18px;
   }
-  .categoryWithDateox{
+
+  .categoryWithDateox {
     margin: 0;
     position: absolute;
     bottom: 10%;
