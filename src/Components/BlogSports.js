@@ -91,7 +91,7 @@ function BlogSports() {
         {
           SportsData.sports.map(getTopPost)
         }
-        <div className="advertisementBox"><img src="https://www.exchange4media.com/news-photo/1520242401_g7vXNC_MSDPressReleaseImage_03_(1).jpg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
+        <div className="advertisementBox"><img src="https://pbs.twimg.com/media/Dwkf2YCW0AYVgGJ.jpg" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
       </div>
     </section>
   )

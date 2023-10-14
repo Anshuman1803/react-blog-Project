@@ -1,11 +1,10 @@
 import React from 'react'
+import ImageSlider from './ImageSlider'
 import { Link } from 'react-router-dom'
 import { BlogData } from '../Data/BlogDataBase'
 import { useContext } from 'react'
 function BlogHome() {
   let AllBlogData = useContext(BlogData);
-
-  console.log(AllBlogData)
   return (
     <section className='HomeblogSection'>
 
@@ -219,10 +218,9 @@ function BlogHome() {
               </div>
             </React.Fragment>
           }
-<div className="sliderPoster">
-  <img src="https://www.fireboltt.com/cdn/shop/articles/imgpsh_fullsize_anim.png?v=1668531575" alt="Poster" className='SliderImg' />
 
-</div>
+          <ImageSlider />
+
         </div>
         <div className="blogSection-Right blogSection-Right-2">
           <div className="advertisementBox advertisementBox-2"><img src="https://gumlet.assettype.com/afaqs/2023-10/1793fdfb-f50a-4b33-8c65-333b8edde7dd/MS_Dhoni_as_JioMart_s_brand_ambassador.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0" alt="AdvertiseMent" className='AdvertiseMentPoster' /></div>
