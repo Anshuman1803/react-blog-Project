@@ -20,7 +20,8 @@ function BlogHome() {
           <img src="https://m.media-amazon.com/images/I/61RuvWDxo8L._AC_UF1000,1000_QL80_.jpg" alt="poster" className='posterImage' />
         </div>
       </div>
-<PosterSlider/>
+      <PosterSlider />
+      
       <div className="latestBlogContainer">
         <h2 className='blogHeading'>The Latest</h2>
         <div className="latestBlogBox">
