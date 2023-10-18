@@ -3,6 +3,7 @@ import ImageSlider from './ImageSlider'
 import { Link } from 'react-router-dom'
 import { BlogData } from '../Data/BlogDataBase'
 import { useContext } from 'react'
+import PosterSlider from './PosterSlider'
 function BlogHome() {
   let AllBlogData = useContext(BlogData);
   return (
@@ -19,7 +20,7 @@ function BlogHome() {
           <img src="https://m.media-amazon.com/images/I/61RuvWDxo8L._AC_UF1000,1000_QL80_.jpg" alt="poster" className='posterImage' />
         </div>
       </div>
-
+<PosterSlider/>
       <div className="latestBlogContainer">
         <h2 className='blogHeading'>The Latest</h2>
         <div className="latestBlogBox">
@@ -322,6 +323,7 @@ function BlogHome() {
 
         </div>
       </section>
+
       <div className="latestBlogContainer">
         <h2 className='blogHeading'>Latest Stories</h2>
         <div className="latestBlogBox">

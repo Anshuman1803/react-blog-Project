@@ -243,6 +243,9 @@ h1 {
   align-items: center;
   position: relative;
 }
+.SliderContainer-2{
+  display: none;
+}
 
 .SliderImg-Box {
   border-radius: 10px;
@@ -921,11 +924,8 @@ border: 1px solid white;
   }
 
   .Hero-Section {
-    /* border: 2px solid red; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    /* justify-content: center;
-    align-items: center; */
   }
 
   .Hero-Section .poster-1 {
@@ -998,13 +998,19 @@ border: 1px solid white;
 @media screen and (max-width: 500px) {
 
   .Hero-Section {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
+    display: none;
+  }
+  .SliderContainer-2{
+    width: 90%;
+    height: 300px;
+    padding: 1em 0.5em;
+    display: block;
+  }
+  .SliderContainer-2 .arrow{
+    color: #f97316;
   }
 
-  .Hero-Section .poster-1 {
+  /* .Hero-Section .poster-1 {
     grid-column: 1/2;
     grid-row: 1/2;
   }
@@ -1018,7 +1024,7 @@ border: 1px solid white;
   .Hero-Section .poster-3 {
     grid-column: 1/2;
     grid-row: 3/4;
-  }
+  } */
 
 
   .blogSection {
