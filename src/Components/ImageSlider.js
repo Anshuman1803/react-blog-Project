@@ -1,47 +1,49 @@
 import React, { useState } from 'react'
-import { useContext } from 'react'
-import { BlogData } from '../Data/BlogDataBase'
 import { Link } from 'react-router-dom';
+
 function ImageSlider() {
-    let AllBlogData = useContext(BlogData);
     const [current, setCurrent] = useState(0);
     const length = 5;
 
+
     let imgSlides = [
         {
-            sliderID: AllBlogData.bollyWood[12].BlogId,
-            slidingTitle: AllBlogData.bollyWood[12].blogTitle,
-            slidingCat: AllBlogData.bollyWood[12].blogCategory,
-            slidingImg: AllBlogData.bollyWood[12].blogImg,
+            "slidingCat": 'bollyWood',
+            "sliderID": 13,
+            "slidingTitle": "Timeless charisma of Amitabh Bachchan: Why Big B remains a fan favourite even at 81",
+            "slidingImg": 'https://st1.bollywoodlife.com/wp-content/uploads/2023/10/Amitabh-Bachchan.png?impolicy=Medium_Widthonly&w=1280&h=900'
+
         },
 
         {
-            sliderID: AllBlogData.hollyWood[6].BlogId,
-            slidingImg: AllBlogData.hollyWood[6].blogImg,
-            slidingTitle: AllBlogData.hollyWood[6].blogTitle,
-            slidingCat: AllBlogData.hollyWood[6].blogCategory,
+            "slidingCat": 'hollyWood',
+            "sliderID": 6,
+            "slidingTitle": "Joe Jones, Sophie Turner officially confirm separation; the singer caught the actress on 'ring camera'?",
+            "slidingImg": 'https://st1.bollywoodlife.com/wp-content/uploads/2023/09/FotoJet-2023-09-06T213150.819.jpg?impolicy=Medium_Widthonly&w=1280&h=900'
+    
         },
 
         {
-            sliderID: AllBlogData.fiteness[8].BlogId,
-            slidingImg: AllBlogData.fiteness[8].blogImg,
-            slidingTitle: AllBlogData.fiteness[8].blogTitle,
-            slidingCat: AllBlogData.fiteness[8].blogCategory,
+            "slidingCat": 'fitness',
+            "sliderID": 8,
+            "slidingTitle": "WHAT TO EXPECT IN THE GYM WHEN YOU’RE EXPECTING",
+            "slidingImg": "https://tonygentilcore.com/wp-content/uploads/2016/10/128857154_l_normal_none-1536x1057.jpg"
+    
         },
 
         {
-            sliderID: AllBlogData.technology[14].BlogId,
-            slidingImg: AllBlogData.technology[14].blogImg,
-            slidingTitle: AllBlogData.technology[14].blogTitle,
-            slidingCat: AllBlogData.technology[14].blogCategory,
+            "slidingCat": "technology",
+            "sliderID": 15,
+            "slidingTitle": "How AI-powered patch management protects remote and hybrid workers",
+            "slidingImg": "https://venturebeat.com/wp-content/uploads/2022/02/GettyImages-1367729442-e1645556694932.jpg?fit=750%2C490&strip=all",
         },
-
+    
         {
-
-            sliderID: AllBlogData.sports[12].BlogId,
-            slidingImg: AllBlogData.sports[12].blogImg,
-            slidingTitle: AllBlogData.sports[12].blogTitle,
-            slidingCat: AllBlogData.sports[12].blogCategory,
+            "slidingCat": 'sports',
+            "sliderID": 13,
+            "slidingTitle": "Exclusive: Rohan Bopanna opens up winning Asian Games mixed doubles gold with Rutuja Bhosale on First Sports",
+            "slidingImg": 'https://images.firstpost.com/wp-content/uploads/2023/10/Rohan-Bopanna-mixed-doubles-gold-Asian-Games-PTI-640.jpg?impolicy=website&width=640&height=363'
+    
         },
     ]
 

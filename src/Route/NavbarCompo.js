@@ -22,11 +22,11 @@ function NavbarCompo() {
   return (
     <nav className='App-Nav'>
       <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/'>Home</NavLink>
-      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/hollywood'>Hollywod</NavLink>
-      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/bollywood'>Bollywood</NavLink>
-      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/fitness'>Fitness</NavLink>
-      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/technology'>Technology</NavLink>
-      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/sports'>Sports</NavLink>
+      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/blog/hollywood'>Hollywod</NavLink>
+      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/blog/bollywood'>Bollywood</NavLink>
+      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/blog/fitness'>Fitness</NavLink>
+      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/blog/technology'>Technology</NavLink>
+      <NavLink onClick={handleLinkClick} className="App-Nav-Link" to='/blog/sports'>Sports</NavLink>
     </nav>
   )
 }

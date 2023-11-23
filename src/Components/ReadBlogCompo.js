@@ -1,15 +1,27 @@
 import React from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { BlogData } from '../Data/BlogDataBase'
-import { useContext } from 'react'
+
+import { useState, useEffect } from 'react'
+import axios from 'axios'
+import CompoLoader from './CompoLoader'
 
 function ReadBlogCompo() {
-  let navigateBack = useNavigate();
-  let paramData = useParams();
-  let allBlogs = useContext(BlogData);
+  const [IsLoading, setIsLoading] = useState(false);
+  const [allBlogs, setallBlogs] = useState([]);
+  const navigateBack = useNavigate();
+  const paramData = useParams();
+
   let moreBlogCount = 1;
 
-  let getClickedData = (data) => {
+  useEffect(() => {
+    setIsLoading(true);
+    axios.get(`https://blogbackend-1c53.onrender.com/${paramData.Blog}`).then((response) => {
+      setallBlogs(response.data);
+      setIsLoading(false);
+    })
+  }, [paramData]);
+
+  const getClickedData = (data) => {
     if (data.BlogId === Number(paramData.ID)) {
       return <article className="ReadBlog" key={data.BlogId}>
         <p className="clapCount fixedIcon"><i className="fa-solid fa-hands-clapping"></i> <span>{data.blogClap}</span></p>
@@ -45,10 +57,10 @@ function ReadBlogCompo() {
 
   }
 
-  let getMoreBlogsData = (data, index) => {
-    if (data.BlogId !== Number(paramData.ID) && moreBlogCount <=4) {
+  const getMoreBlogsData = (data, index) => {
+    if (data.BlogId !== Number(paramData.ID) && moreBlogCount <= 4) {
       moreBlogCount++
-     return <div className="MoreBlogs" key={index}>
+      return <div className="MoreBlogs" key={index}>
         <img src={data.blogImg} alt="blogPoster" className='moreBolgsPosters' />
         <Link to={`/${data.blogCategory}/${data.BlogId}`} className="blogTitle " >   <h2 className="blogTitle moreBolgsTitle">
           {data.blogTitle.slice(0, 58)} ...
@@ -68,7 +80,11 @@ function ReadBlogCompo() {
   return (
     <section className="ReadBlog-Section">
       {
-        allBlogs[paramData.Blog].map(getClickedData)
+        IsLoading ? <CompoLoader /> : <>
+          {
+            allBlogs.map(getClickedData)
+          }
+        </>
       }
       <button className="navigateBackBtn" onClick={() => navigateBack(-1)}>Back</button>
 
@@ -76,9 +92,12 @@ function ReadBlogCompo() {
         <h3 className='moreBlogHeading'>More From The Siren</h3>
 
         <div className="moreBlogBox">
-
           {
-            allBlogs[paramData.Blog].map(getMoreBlogsData)
+            IsLoading ? <CompoLoader /> : <>
+              {
+                allBlogs.map(getMoreBlogsData)
+              }
+            </>
           }
         </div>
 
