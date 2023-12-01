@@ -417,6 +417,7 @@ h1 {
   font-size: 28px;
   position: relative;
   padding-bottom: 5px;
+  text-transform: capitalize;
 }
 
 .blogHeading::after {
