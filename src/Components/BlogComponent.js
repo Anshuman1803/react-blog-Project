@@ -98,7 +98,7 @@ function BlogComponent() {
                 IsLoading ? <CompoLoader /> : <>
 
                     <div className="blogSection-Left">
-                        <h2 className='blogHeading'>Bollywood</h2>
+                        <h2 className='blogHeading'>{blogCategory}</h2>
                         {
                             BlogData.map(getData)
                         }
